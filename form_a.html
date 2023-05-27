@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <script src="jquery.min.js"></script>
+    <title>Demo Jquery</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <form id="myForm">
+            <div class="form-group">
+                <label for="inputText">Input Text :</label>
+                <input type="text" class="form-control" id="inputText" placeholder="Enter text" />
+            </div>
+            <div class="form-group mt-3">
+                <label for="inputNumber">Input Number :</label>
+                <input type="number" class="form-control" id="inputNumber" placeholder="Enter number" />
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+        </form>
+
+        <div class="mt-5">
+            <table id="resultTable" class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Index</th>
+                        <th scope="col">Value</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <!-- <table id="resultTable" class="table mt-5" style="display: none"></table> -->
+    </div>
+
+    <script src="jquery.min.js"></script>
+    <script src="jquery.js"></script>
+</body>
+
+</html>
